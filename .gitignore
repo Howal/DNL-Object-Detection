@@ -1,0 +1,6 @@
+*.pyc
+.eggs
+data
+work_dirs
+mmdet.egg*
+build
