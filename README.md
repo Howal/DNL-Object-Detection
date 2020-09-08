@@ -25,7 +25,7 @@ Many thanks to mmdetection for their simple and clean framework.
 
 ### Results on R50-FPN with backbone (syncBN)
 
-|  Back-bone |   Model   | Back-bone Norm |       Heads      |     Context    | Lr schd | box AP | mask AP | Download |
+|  Back-bone |   Model   | Backbone Norm |       Heads      |     Context    | Lr schd | box AP | mask AP | Download |
 |:---------:|:---------:|:-------------:|:----------------:|:--------------:|:-------:|:-------:|:--------:|:--------:|
 |  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   |        -       |    1x   | 38.8  |   35.1  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/ESBsU_-lvpxLvwgdEA3sKnABUPP6MPJbVShdLyvfFvtdgg?e=x9FTqm) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EfgX4VrNMEhLgRqzcIKEOf8BkbBk5fNwA5d9fLL5xC2KXQ?e=pHrVrF) |
 |  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | NL(c4) |    1x   | 39.6  |   35.8  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EaRVsOJnGNpKu7NdARGBt9gBZQ5OU2X8RzoWBiq1A25BZA?e=4aQeL0) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EQkuCp1hNDtNsgKNSy3bs2cBgD3Ygi3nKImKySeiNrXFng?e=ockp3g) |
@@ -44,7 +44,7 @@ Many thanks to mmdetection for their simple and clean framework.
 - `SNL` denotes Simplified Non-local block block is inserted after 1x1 conv of backbone.
 - `DNL` denotes Disentangled Non-local block block is inserted after 1x1 conv of backbone.
 - `r4` denotes ratio 4 in GC block.
-- `c4` and `c5_all` denote insert block at stage c4's last residual block and c5's all blocks, respectively.
+- `c4` and `c5_all` denote insert context block at stage c4's last residual block and c5's all blocks, respectively.
 - Most models are trained on 16 GPUs with 4 images on each GPU.
 
 ## Requirements
