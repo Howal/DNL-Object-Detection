@@ -27,12 +27,12 @@ Many thanks to mmdetection for their simple and clean framework.
 
 |  Back-bone |   Model   | Back-bone Norm |       Heads      |     Context    | Lr schd | box AP | mask AP | Download |
 |:---------:|:---------:|:-------------:|:----------------:|:--------------:|:-------:|:-------:|:--------:|:--------:|
-|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   |        -       |    1x   | 38.8  |   35.1  | model|
-|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | NL(c4) |    1x   | 39.6  |   35.8  | model|
-|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | GC(c4, r4) |    1x   | 40.1  |   36.2  | model|
-|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | SNL(c4) |    1x   | 40.1  |   36.2  | model|
-|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | DNL(c4) |    1x   | 40.3  |   36.4  | model|
-|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | DNL(c4+c5_all) |    1x   | 41.2  |   37.2  | model|
+|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   |        -       |    1x   | 38.8  |   35.1  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/ESBsU_-lvpxLvwgdEA3sKnABUPP6MPJbVShdLyvfFvtdgg?e=x9FTqm) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EfgX4VrNMEhLgRqzcIKEOf8BkbBk5fNwA5d9fLL5xC2KXQ?e=pHrVrF) |
+|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | NL(c4) |    1x   | 39.6  |   35.8  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EaRVsOJnGNpKu7NdARGBt9gBZQ5OU2X8RzoWBiq1A25BZA?e=4aQeL0) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EQkuCp1hNDtNsgKNSy3bs2cBgD3Ygi3nKImKySeiNrXFng?e=ockp3g) |
+|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | GC(c4, r4) |    1x   | 40.1  |   36.2  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EVmIm_qTamRHtG2EYek6kOIB_aCgIqmEuxeXCSiZTncxhw?e=ROfDMV) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/ERqhLMv0hNlPgycna57dolIBATwuGrHgxvogZbOXwf2rkg?e=rkXZbT) |
+|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | SNL(c4) |    1x   | 40.1  |   36.2  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EaLgMNGziWRLhGmFTdeSIHwB8XtxTDhqTVGvw1drmo_bhw?e=c9a07t) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/Ee1vsUBdCuFEnHaacapJAYMBtPQui2h4wE4POV5U5fDMww?e=2Wcu6l) |
+|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | DNL(c4) |    1x   | 40.3  |   36.4  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EUJfTYRitsdDmkSsdVc7eGcBKQQMXqd8qvl144juAsxqrw?e=iPp4jO) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/ESMinReWPuNAqJs4J-6xHAsBHp8pwT8bORt_3TDgENhOhg?e=PIGbSM) |
+|  R50-FPN |       Mask       |     SyncBN    |    4Conv1FC   | DNL(c4+c5_all) |    1x   | 41.2  |   37.2  | [model](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EQilrnU8FSZPmKAP99YqgIYBwRUOq2ChWMNrgqMlcaxevw?e=GcgBV1) &#124; [log](https://microsoft-my.sharepoint.com/:u:/p/t-zhuyao/EX_sejC2I-1NsLwTPW2FYVcBHgKoTs62qjTOzLEcYbOV3g?e=tnVyYu) |
 
 ### Results on stronger backbones
 - On going
