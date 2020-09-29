@@ -51,8 +51,11 @@ Many thanks to mmdetection for their simple and clean framework.
 
 - Linux(tested on Ubuntu 16.04)
 - Python 3.6+
-- PyTorch 1.1.0
 - Cython
+- PyTorch 1.1.0
+- CUDA 9.0
+- CUDNN 7.0
+- NCCL 2.3.5
 - [apex](https://github.com/NVIDIA/apex)
 - [inplace_abn](https://github.com/mapillary/inplace_abn)
 
@@ -69,35 +72,15 @@ c. Clone the DNLNet repository.
  git clone https://github.com/Howal/DNL-Object-Detection.git
 ```
 
-d. Compile cuda extensions.
+d. Install DNLNet version mmdetection (other dependencies will be installed automatically).
 
 ```bash
-cd DNL-Object-Detection
-pip install cython  # or "conda install cython" if you prefer conda
-./compile.sh  # or "PYTHON=python3 ./compile.sh" if you use system python3 without virtual environments
+python(3) setup.py build develop  # add --user if you want to install it locally
+# or "pip install -e -v ."
 ```
-
-e. Install DNLNet version mmdetection (other dependencies will be installed automatically).
-
-```bash
-python(3) setup.py install  # add --user if you want to install it locally
-# or "pip install ."
-```
-
-Note: You need to run the last step each time you pull updates from github. 
-Or you can run `python(3) setup.py develop` or `pip install -e .` to install mmdetection if you want to make modifications to it frequently.
 
 Please refer to mmdetection install [instruction](https://github.com/open-mmlab/mmdetection/blob/master/INSTALL.md) for more details.
 
-## Environment
-
-### Software environment
-
-- Python 3.6.7
-- PyTorch 1.1.0
-- CUDA 9.0
-- CUDNN 7.0
-- NCCL 2.3.5
 
 ## Usage
 
