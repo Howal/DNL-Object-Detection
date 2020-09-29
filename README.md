@@ -75,6 +75,7 @@ c. Clone the DNLNet repository.
 d. Install DNLNet version mmdetection (other dependencies will be installed automatically).
 
 ```bash
+cd DNL-Object-Detection
 python(3) setup.py build develop  # add --user if you want to install it locally
 # or "pip install -e -v ."
 ```
